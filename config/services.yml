@@ -1,0 +1,16 @@
+mysql:
+  binary: './services/mysql/bin/mysqld'
+  data_dir: './services/mysql/data'
+  port: 3306
+  env:
+    MYSQL_DATABASE: fleetbase
+    MYSQL_ROOT_PASSWORD: root
+
+redis:
+  binary: './services/redis/redis-server'
+  port: 6379
+
+socketcluster:
+  binary: 'node'
+  script: './services/socketcluster/index.js'
+  port: 8001

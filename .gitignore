@@ -1,0 +1,9 @@
+# services build/compiling
+services/mariadb
+services/redis
+# binaries
+bin/**/*
+services/bin/**/*
+# node_modules
+ctl/node_modules
+node_modules

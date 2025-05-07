@@ -1,0 +1,31 @@
+{
+    "name": "@fleetbase/ctl",
+    "version": "0.0.1",
+    "description": "CLI tool for managing Fleetbase and contained services",
+    "main": "index.js",
+    "bin": {
+        "fleetbase-ctl": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/fleetbase/fleetbase-omnibus",
+    "keywords": [
+        "omnibus",
+        "fleetbase",
+        "fleetbase-ctl"
+    ],
+    "author": "Fleetbase Pte Ltd <hello@fleetbase.io>",
+    "license": "AGPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/fleetbase/fleetbase-omnibus/issues"
+    },
+    "homepage": "https://github.com/fleetbase/fleetbase-omnibus#readme",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "execa": "^9.5.2",
+        "fs-extra": "^11.3.0",
+        "yaml": "^2.7.1",
+        "yargs": "^17.7.2"
+    }
+}
