@@ -8,7 +8,7 @@ yargs
   .command(require('./commands/stop'))
   .command(require('./commands/status'))
   .command(require('./commands/logs'))
-  .command(require('./commands/doctor'))
+  // .command(require('./commands/doctor'))
   .demandCommand()
   .help()
   .argv;
